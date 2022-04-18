@@ -35,5 +35,7 @@ public class ReadConfig {
 	public String getPassword() {
 		String password = pro.getProperty("password");
 		return password;
+		
+	
 	}
 }

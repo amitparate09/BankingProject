@@ -77,7 +77,7 @@ public class BaseClass {
 	public void endReport() {
 
 		extent.flush();
-		System.Out.Println("New Code");
+		System.out.println("New Code");
 	}
 
 	public static String captureScreen() throws IOException {
