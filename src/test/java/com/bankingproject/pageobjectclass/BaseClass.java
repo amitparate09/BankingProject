@@ -52,25 +52,26 @@ public class BaseClass {
 
 	}
 
-	//@Parameters("browser")
+	@Parameters("browser")
 	@BeforeClass
-	public void setup() {
+	public void setup(String str) {
 
-	//	if (str.equals("chrome")) {
+		if (str.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "/Users/amitparate/Documents/chromedriver");
 			driver = new ChromeDriver();
 			driver.get(baseURL);
-//
-//		} else if (str.equals("firefox")) {
-//			System.setProperty("webdriver.gecko.driver", "/Users/amitparate/Documents/geckodriver");
-//			driver = new FirefoxDriver();
-//		}
+
+		} else if (str.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver", "/Users/amitparate/Documents/geckodriver");
+			driver = new FirefoxDriver();
+		}
 	}
 
 	@AfterClass
 	public void closebrowser() {
 		driver.quit();
 	}
+	
 
 	@AfterSuite
 	public void endReport() {
