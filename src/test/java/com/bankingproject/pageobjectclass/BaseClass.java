@@ -93,11 +93,4 @@ public class BaseClass {
 		return destination;
 
 	}
-
-	public void method1() {
-		
-		System.out.println("Welcome");
-		
-		
-	}
 }
