@@ -78,6 +78,7 @@ public class BaseClass {
 
 		extent.flush();
 		System.out.println("New Code");
+	
 	}
 
 	public static String captureScreen() throws IOException {
@@ -93,4 +94,10 @@ public class BaseClass {
 
 	}
 
+	public void method1() {
+		
+		System.out.println("Welcome");
+		
+		
+	}
 }

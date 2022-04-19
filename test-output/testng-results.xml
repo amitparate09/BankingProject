@@ -2,32 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-13T23:33:31 IST" name="BankingProject" finished-at="2022-04-13T23:33:58 IST" duration-ms="27064">
+  <suite started-at="2022-04-18T23:17:25 IST" name="Failed suite [BankingProject]" finished-at="2022-04-18T23:17:59 IST" duration-ms="34338">
     <groups>
     </groups>
-    <test started-at="2022-04-13T23:33:31 IST" name="BankingTest" finished-at="2022-04-13T23:33:58 IST" duration-ms="27064">
+    <test started-at="2022-04-18T23:17:25 IST" name="BankingTest(failed)" finished-at="2022-04-18T23:17:59 IST" duration-ms="34338">
       <class name="com.bankingproject.testclass.TC_LoginTest_003">
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@34b7ac2f]" started-at="2022-04-13T23:33:31 IST" name="setReport" finished-at="2022-04-13T23:33:31 IST" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@a9cd3b1]" started-at="2022-04-18T23:17:25 IST" name="setReport" finished-at="2022-04-18T23:17:25 IST" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@34b7ac2f]" started-at="2022-04-13T23:33:31 IST" name="setup" finished-at="2022-04-13T23:33:42 IST" duration-ms="10578" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@a9cd3b1]" started-at="2022-04-18T23:17:25 IST" name="setup" finished-at="2022-04-18T23:17:40 IST" duration-ms="15451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="newCustomerTest()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@34b7ac2f]" started-at="2022-04-13T23:33:42 IST" name="newCustomerTest" finished-at="2022-04-13T23:33:58 IST" duration-ms="16257" status="PASS">
+        <test-method signature="newCustomerTest()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@a9cd3b1]" started-at="2022-04-18T23:17:40 IST" name="newCustomerTest" finished-at="2022-04-18T23:17:59 IST" duration-ms="18556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newCustomerTest -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@34b7ac2f]" started-at="2022-04-13T23:33:58 IST" name="closebrowser" finished-at="2022-04-13T23:33:58 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@a9cd3b1]" started-at="2022-04-18T23:17:59 IST" name="closebrowser" finished-at="2022-04-18T23:17:59 IST" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@34b7ac2f]" started-at="2022-04-13T23:33:59 IST" name="endReport" finished-at="2022-04-13T23:33:59 IST" duration-ms="423" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.bankingproject.testclass.TC_LoginTest_003@a9cd3b1]" started-at="2022-04-18T23:17:59 IST" name="endReport" finished-at="2022-04-18T23:18:00 IST" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.bankingproject.testclass.TC_LoginTest_003 -->
-    </test> <!-- BankingTest -->
-  </suite> <!-- BankingProject -->
+    </test> <!-- BankingTest(failed) -->
+  </suite> <!-- Failed suite [BankingProject] -->
 </testng-results>
